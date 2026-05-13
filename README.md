@@ -5,9 +5,9 @@
 | Nome | Matrícula |
 |------|-----------|
 | Gabriel Almeida Pinhão | 904467 |
-| José Elias Mello Oliveira | 000000 |
-| Anthony Freitas Borges | 000000 |
-| Arthur Mendes Pereira | 000000 |
+| José Elias Mello Oliveira | 890137 |
+| Anthony Freitas Borges | 894821 |
+| Arthur Mendes Pereira | 876331 |
 
 ---
 

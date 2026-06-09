@@ -46,7 +46,7 @@ INSERT INTO Especialidade VALUES
 CREATE TABLE Medico (
     CRM                 INT PRIMARY KEY,
     Nome                VARCHAR(100) NOT NULL,
-    Idade               INT,
+    Idade               date,
     CodigoEspecialidade INT,
 
     CONSTRAINT fk_medico_especialidade

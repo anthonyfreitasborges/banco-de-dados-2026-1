@@ -43,8 +43,7 @@ O DER atualizado também está disponível em `/e1-der/`.
 ├── e4-sql/
 │   └── schema.sql       # DDL + DML + Consultas Q1–Q10
 └── docs/
-    ├── relatorio_final.md
-    └── dicionario_dados.md
+    ├── link do slides.md  # Link para os slides da apresentação
 ```
 
 ---

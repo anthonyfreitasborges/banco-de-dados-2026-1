@@ -42,8 +42,8 @@ O DER atualizado também está disponível em `/e1-der/`.
 │   └── normalizacao.md  # Análise de formas normais (1FN, 2FN, 3FN, BCNF)
 ├── e4-sql/
 │   └── schema.sql       # DDL + DML + Consultas Q1–Q10
-└── docs/
-    ├── link do slides.md  # Link para os slides da apresentação
-```
 
----
+## links dos sldies apresentados em sala
+
+sldie de normalixação :
+https://canva.link/03hdbqqvxyh4eaw

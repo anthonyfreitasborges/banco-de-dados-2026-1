@@ -15,7 +15,7 @@ CREATE TABLE Especialidade (
 CREATE TABLE Medico (
     CRM INT PRIMARY KEY,
     Nome VARCHAR(100) NOT NULL,
-    Idade INT,
+    DataNascimento DATE,
     CodigoEspecialidade INT,
     CONSTRAINT fk_medico_especialidade
         FOREIGN KEY (CodigoEspecialidade)
@@ -28,7 +28,11 @@ CREATE TABLE Paciente (
     DataNascimento DATE,
     Telefone VARCHAR(20),
     Email VARCHAR(100),
-    Endereco VARCHAR(200)
+    Endereco VARCHAR(200),
+    idConvenio INT,
+
+    FOREIGN KEY (idConvenio)
+        REFERENCES Convenio(id_convenio)
 );
 
 CREATE TABLE Convenio (
@@ -51,11 +55,9 @@ CREATE TABLE Consulta (
     QueixaPrincipal TEXT,
     Diagnostico TEXT,
     Prescricao TEXT,
-    id_convenio INT,
     idMedico INT,
     idPaciente VARCHAR(14),
     idAgendamento INT,
-    FOREIGN KEY (id_convenio) REFERENCES Convenio(id_convenio),
     FOREIGN KEY (idMedico) REFERENCES Medico(CRM),
     FOREIGN KEY (idPaciente) REFERENCES Paciente(CPF),
     FOREIGN KEY (idAgendamento) REFERENCES Agendamento(idAgendamento)

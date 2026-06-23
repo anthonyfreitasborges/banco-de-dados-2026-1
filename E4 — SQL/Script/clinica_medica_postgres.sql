@@ -120,16 +120,16 @@ INSERT INTO Agendamento VALUES
 -- =========================
 
 INSERT INTO Medico VALUES
-(10001, 'Dr. Carlos Mendes',   48, 1),
-(10002, 'Dra. Ana Souza',      35, 1),
-(10003, 'Dr. Roberto Lima',    52, 2),
-(10004, 'Dra. Fernanda Costa', 41, 2),
-(10005, 'Dra. Patricia Nunes', 38, 3),
-(10006, 'Dr. Marcos Alves',    45, 3),
-(10007, 'Dr. Paulo Ramos',     50, 4),
-(10008, 'Dra. Juliana Melo',   33, 4),
-(10009, 'Dr. Ricardo Barros',  57, 5),
-(10010, 'Dra. Camila Torres',  39, 5);
+(10001, 'Dr. Carlos Mendes',   '1978-05-10', 1),
+(10002, 'Dra. Ana Souza',      '1991-08-22', 1),
+(10003, 'Dr. Roberto Lima',    '1974-03-15', 2),
+(10004, 'Dra. Fernanda Costa', '1985-11-30', 2),
+(10005, 'Dra. Patricia Nunes', '1988-07-12', 3),
+(10006, 'Dr. Marcos Alves',    '1981-09-25', 3),
+(10007, 'Dr. Paulo Ramos',     '1976-02-18', 4),
+(10008, 'Dra. Juliana Melo',   '1993-12-05', 4),
+(10009, 'Dr. Ricardo Barros',  '1969-06-08', 5),
+(10010, 'Dra. Camila Torres',  '1987-04-20', 5);
 
 -- =========================
 -- INSERT: Paciente
@@ -137,16 +137,16 @@ INSERT INTO Medico VALUES
 -- =========================
 
 INSERT INTO Paciente VALUES
-('111.111.111-11', 'Joao da Silva',     '1985-03-15', '(31) 99111-2222', 'joao.silva@email.com',      'Rua das Flores, 100, Belo Horizonte - MG'),
-('222.222.222-22', 'Maria Oliveira',    '1992-07-22', '(31) 99222-3333', 'maria.oliveira@email.com',  'Av. Afonso Pena, 200, Belo Horizonte - MG'),
-('333.333.333-33', 'Pedro Santos',      '1978-11-30', '(31) 99333-4444', 'pedro.santos@email.com',    'Rua da Bahia, 300, Belo Horizonte - MG'),
-('444.444.444-44', 'Lucia Ferreira',    '2010-05-10', '(31) 99444-5555', 'lucia.ferreira@email.com',  'Rua Espirito Santo, 400, Belo Horizonte - MG'),
-('555.555.555-55', 'Carlos Almeida',    '1965-09-05', '(31) 99555-6666', 'carlos.almeida@email.com',  'Rua Goias, 500, Belo Horizonte - MG'),
-('666.666.666-66', 'Ana Paula Rocha',   '1990-01-18', '(31) 99666-7777', 'anapaula.rocha@email.com',  'Rua Sergipe, 600, Belo Horizonte - MG'),
-('777.777.777-77', 'Bruno Costa',       '1982-06-25', '(31) 99777-8888', 'bruno.costa@email.com',     'Av. Amazonas, 700, Belo Horizonte - MG'),
-('888.888.888-88', 'Fernanda Lima',     '1999-12-03', '(31) 99888-9999', 'fernanda.lima@email.com',   'Rua Parana, 800, Belo Horizonte - MG'),
-('999.999.999-99', 'Rafael Mendonca',   '1975-08-14', '(31) 99900-1111', 'rafael.mendonca@email.com', 'Av. do Contorno, 900, Belo Horizonte - MG'),
-('000.000.000-00', 'Claudia Peixoto',   '2005-04-29', '(31) 99000-2222', 'claudia.peixoto@email.com', 'Rua Curitiba, 1000, Belo Horizonte - MG');
+('111.111.111-11', 'Joao da Silva',   '1985-03-15', '(31) 99111-2222', 'joao.silva@email.com',      'Rua das Flores, 100, Belo Horizonte - MG', 1),
+('222.222.222-22', 'Maria Oliveira',  '1992-07-22', '(31) 99222-3333', 'maria.oliveira@email.com',  'Av. Afonso Pena, 200, Belo Horizonte - MG', 2),
+('333.333.333-33', 'Pedro Santos',    '1978-11-30', '(31) 99333-4444', 'pedro.santos@email.com',    'Rua da Bahia, 300, Belo Horizonte - MG', 3),
+('444.444.444-44', 'Lucia Ferreira',  '2010-05-10', '(31) 99444-5555', 'lucia.ferreira@email.com',  'Rua Espirito Santo, 400, Belo Horizonte - MG', 4),
+('555.555.555-55', 'Carlos Almeida',  '1965-09-05', '(31) 99555-6666', 'carlos.almeida@email.com',  'Rua Goias, 500, Belo Horizonte - MG', 5),
+('666.666.666-66', 'Ana Paula Rocha', '1990-01-18', '(31) 99666-7777', 'anapaula.rocha@email.com',  'Rua Sergipe, 600, Belo Horizonte - MG', 1),
+('777.777.777-77', 'Bruno Costa',     '1982-06-25', '(31) 99777-8888', 'bruno.costa@email.com',     'Av. Amazonas, 700, Belo Horizonte - MG', 2),
+('888.888.888-88', 'Fernanda Lima',   '1999-12-03', '(31) 99888-9999', 'fernanda.lima@email.com',   'Rua Parana, 800, Belo Horizonte - MG', 3),
+('999.999.999-99', 'Rafael Mendonca', '1975-08-14', '(31) 99900-1111', 'rafael.mendonca@email.com', 'Av. do Contorno, 900, Belo Horizonte - MG', 4),
+('000.000.000-00', 'Claudia Peixoto', '2005-04-29', '(31) 99000-2222', 'claudia.peixoto@email.com', 'Rua Curitiba, 1000, Belo Horizonte - MG', 5);
 
 -- =========================
 -- INSERT: Consulta
@@ -155,16 +155,16 @@ INSERT INTO Paciente VALUES
 -- =========================
 
 INSERT INTO Consulta VALUES
-(1,  '2026-05-01 08:00:00', 'Dor no peito e falta de ar',       'Angina estavel',                    'Atenolol 50mg 1x ao dia',            1, 10001, '111.111.111-11', 1),
-(2,  '2026-05-01 09:00:00', 'Palpitacoes frequentes',           'Arritmia supraventricular',          'Verapamil 80mg 2x ao dia',           2, 10002, '222.222.222-22', 2),
-(3,  '2026-05-01 10:00:00', 'Dor no joelho esquerdo',           'Condromalacia patelar',              'Ibuprofeno 600mg + fisioterapia',    3, 10003, '333.333.333-33', 3),
-(4,  '2026-05-01 11:00:00', 'Dor lombar ha 2 semanas',          'Lombalgia mecanica',                 'Relaxante muscular + repouso',       4, 10004, '444.444.444-44', 4),
-(5,  '2026-05-01 12:00:00', 'Febre e tosse ha 3 dias',          'Infeccao respiratoria viral',        'Paracetamol 500mg + repouso',        5, 10005, '555.555.555-55', 5),
-(6,  '2026-05-01 13:00:00', 'Crianca com otite recorrente',     'Otite media aguda',                  'Amoxicilina 250mg xarope 7 dias',    1, 10006, '666.666.666-66', 6),
-(7,  '2026-05-01 14:00:00', 'Manchas vermelhas no rosto',       'Dermatite seborreica',               'Cetoconazol shampoo + hidratante',   2, 10007, '777.777.777-77', 7),
-(8,  '2026-05-01 15:00:00', 'Acne severa nas costas',           'Acne grau III',                      'Adapaleno gel + Doxiciclina 100mg',  3, 10008, '888.888.888-88', 8),
-(9,  '2026-05-01 16:00:00', 'Dores de cabeca diarias intensas', 'Enxaqueca cronica',                  'Topiramato 50mg + Sumatriptano',     4, 10009, '999.999.999-99', 9),
-(10, '2026-05-01 17:00:00', 'Formigamento nas maos a noite',    'Sindrome do tunel do carpo',         'Ortese noturna + anti-inflamatorio', 5, 10010, '000.000.000-00', 10);
+(1,  '2026-05-01 08:00:00', 'Dor no peito e falta de ar',       'Angina estavel',             'Atenolol 50mg 1x ao dia',            10001, '111.111.111-11', 1),
+(2,  '2026-05-01 09:00:00', 'Palpitacoes frequentes',           'Arritmia supraventricular',  'Verapamil 80mg 2x ao dia',           10002, '222.222.222-22', 2),
+(3,  '2026-05-01 10:00:00', 'Dor no joelho esquerdo',           'Condromalacia patelar',      'Ibuprofeno 600mg + fisioterapia',    10003, '333.333.333-33', 3),
+(4,  '2026-05-01 11:00:00', 'Dor lombar ha 2 semanas',          'Lombalgia mecanica',         'Relaxante muscular + repouso',       10004, '444.444.444-44', 4),
+(5,  '2026-05-01 12:00:00', 'Febre e tosse ha 3 dias',          'Infeccao respiratoria viral','Paracetamol 500mg + repouso',        10005, '555.555.555-55', 5),
+(6,  '2026-05-01 13:00:00', 'Crianca com otite recorrente',     'Otite media aguda',          'Amoxicilina 250mg xarope 7 dias',    10006, '666.666.666-66', 6),
+(7,  '2026-05-01 14:00:00', 'Manchas vermelhas no rosto',       'Dermatite seborreica',       'Cetoconazol shampoo + hidratante',   10007, '777.777.777-77', 7),
+(8,  '2026-05-01 15:00:00', 'Acne severa nas costas',           'Acne grau III',              'Adapaleno gel + Doxiciclina 100mg',  10008, '888.888.888-88', 8),
+(9,  '2026-05-01 16:00:00', 'Dores de cabeca diarias intensas', 'Enxaqueca cronica',          'Topiramato 50mg + Sumatriptano',     10009, '999.999.999-99', 9),
+(10, '2026-05-01 17:00:00', 'Formigamento nas maos a noite',    'Sindrome do tunel do carpo', 'Ortese noturna + anti-inflamatorio', 10010, '000.000.000-00', 10);
 
 -- =========================
 -- INSERT: Prontuario
